@@ -1,67 +1,24 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Blogs page for Vanika's portfolio.">
-  <title>Blogs | Vanika Portfolio</title>
+  <meta name="description" content="Vanika's writing on production Kubernetes, cloud security, SRE, applied AI, and engineering governance.">
+  <title>Writing | Vanika</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="site-logo" href="index.html#top" aria-label="Vanika DevOps portfolio home">
-        <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-          <path d="M10 9h7l7 20 7-20h7L24 40 10 9Z"></path>
-          <circle cx="10" cy="9" r="2"></circle><circle cx="38" cy="9" r="2"></circle><circle cx="24" cy="40" r="2"></circle>
-        </svg>
-      </a>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="index.html#showcases">My Works</a>
-        <a href="projects.html">Projects</a>
-        <a href="blogs.html">Blogs</a>
-        <a href="index.html#contact">Contact</a>
-      </div>
-      <p class="status"><span aria-hidden="true"></span>System status: <strong>online</strong></p>
-    </nav>
-  </header>
-  <main id="main-content">
-    <section class="section container" aria-labelledby="blogs-heading">
-      <div class="section-intro">
-        <p class="section-label">Blogs</p>
-        <h2 id="blogs-heading">Engineering stories.</h2>
-        <p class="prose">Practical writing on cloud architecture, Kubernetes security, and reliable platform design.</p>
-      </div>
-      <div class="projects-grid">
-        <article class="project-card featured">
-          <div class="project-number">01</div><p class="project-type">Medium · EKS architecture</p>
-          <div class="mini-diagram" aria-label="EKS platform architecture includes infrastructure, GitOps, observability, and disaster recovery"><span>EKS</span><i></i><span>GitOps</span><i></i><span>Resilience</span></div>
-          <h3>Production-Grade Amazon EKS Architecture: What Good Looks Like</h3>
-          <p>A 14-part guide to a resilient EKS platform covering network design, policy, multi-tenancy, FinOps, observability, safe delivery, upgrades, and disaster recovery.</p>
-          <ul class="tool-list" aria-label="Article topics"><li>EKS</li><li>Kubernetes</li><li>GitOps</li><li>Observability</li></ul>
-          <a class="button button-primary" href="https://medium.com/@vanikaraj1/production-grade-amazon-eks-architecture-what-good-looks-like-092eeeaffea1" target="_blank" rel="noreferrer">Read on Medium <span aria-hidden="true">→</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-number">02</div><p class="project-type">LinkedIn · cloud security</p>
-          <div class="mini-diagram" aria-label="A Kubernetes pod uses a scoped identity rather than a broad node identity"><span>Pod</span><i></i><span>IRSA</span><i></i><span>AWS IAM</span></div>
-          <h3>Why You Should Stop Letting EKS Pods Depend on Node IAM Roles</h3>
-          <p>Why node-level IAM creates unnecessary risk, and how IRSA or EKS Pod Identity gives workloads a more auditable least-privilege model.</p>
-          <ul class="tool-list" aria-label="Article topics"><li>IAM</li><li>IRSA</li><li>Pod Identity</li><li>Security</li></ul>
-          <a class="button button-primary" href="https://www.linkedin.com/pulse/why-you-should-stop-letting-eks-pods-depend-node-iam-roles-vanika-e-udmhc" target="_blank" rel="noreferrer">Read on LinkedIn <span aria-hidden="true">→</span></a>
-        </article>
-        <article class="project-card">
-          <div class="project-number">03</div><p class="project-type">Medium · AI governance</p>
-          <div class="mini-diagram" aria-label="AI capabilities in DevOps are connected to a governance layer"><span>AI</span><i></i><span>DevOps</span><i></i><span>Governance</span></div>
-          <h3>AI in DevOps: The Full Stack and the Governance Layer Nobody Talks About</h3>
-          <p>An exploration of where AI fits in the DevOps stack—and why governance deserves to be part of the engineering conversation.</p>
-          <ul class="tool-list" aria-label="Article topics"><li>AI</li><li>DevOps</li><li>Governance</li><li>Platform engineering</li></ul>
-          <a class="button button-primary" href="https://medium.com/@vanikaraj1/ai-in-devops-the-full-stack-and-the-governance-layer-nobody-talks-about-cde32f263ec1" target="_blank" rel="noreferrer">Read on Medium <span aria-hidden="true">→</span></a>
-        </article>
-      </div>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="wordmark" href="index.html#top" aria-label="Vanika portfolio home"><span>V</span>Vanika E.</a><div class="nav-links"><a href="index.html#work">Work</a><a href="projects.html">Projects</a><a href="blogs.html" aria-current="page">Writing</a><a href="index.html#contact">Contact</a></div><p class="status"><span aria-hidden="true"></span>Open to SRE &amp; platform roles</p></nav></header>
+  <main id="main-content" class="writing-page">
+    <section class="page-hero container"><p class="section-index">Field notes / Architecture &amp; operations</p><h1>Write down the why, not only the YAML.</h1><p class="writing-intro">Practical essays about resilient Kubernetes platforms, least-privilege cloud identity, and the governance questions that arrive with AI in engineering.</p></section>
+    <section class="container article-list" aria-label="Published articles">
+      <a href="https://medium.com/@vanikaraj1/production-grade-amazon-eks-architecture-what-good-looks-like-092eeeaffea1" target="_blank" rel="noreferrer"><span>01</span><strong>Production-Grade Amazon EKS Architecture: What Good Looks Like</strong><small>Medium · EKS architecture</small><i>↗</i></a>
+      <a href="https://www.linkedin.com/pulse/why-you-should-stop-letting-eks-pods-depend-node-iam-roles-vanika-e-udmhc" target="_blank" rel="noreferrer"><span>02</span><strong>Why You Should Stop Letting EKS Pods Depend on Node IAM Roles</strong><small>LinkedIn · cloud security</small><i>↗</i></a>
+      <a href="https://medium.com/@vanikaraj1/ai-in-devops-the-full-stack-and-the-governance-layer-nobody-talks-about-cde32f263ec1" target="_blank" rel="noreferrer"><span>03</span><strong>AI in DevOps: The Full Stack and the Governance Layer Nobody Talks About</strong><small>Medium · AI governance</small><i>↗</i></a>
     </section>
   </main>
-  <footer class="footer container"><p>Built for reliable systems.</p><p>© 2026 Vanika</p></footer>
+  <footer class="footer container"><p>Vanika E. · SRE &amp; AI Platform Engineer</p><p>© 2026</p></footer>
 </body>
 </html>
