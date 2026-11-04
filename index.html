@@ -3,76 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Vanika is an SRE and AI platform engineer building reliable cloud systems, operational automation, and practical AI tools.">
-  <title>Vanika | SRE &amp; AI Platform Engineer</title>
+  <meta name="description" content="Vanika is a Senior SRE and AI platform engineer building resilient cloud systems, safe delivery pipelines, and grounded operational intelligence.">
+  <title>Vanika | Senior SRE &amp; AI Platform Engineer</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="wordmark" href="#top" aria-label="Vanika portfolio home"><span>V</span>Vanika E.</a>
-      <div class="nav-links"><a href="#work">Work</a><a href="#projects">Projects</a><a href="#writing">Writing</a><a href="#contact">Contact</a></div>
-      <p class="status"><span aria-hidden="true"></span>Open to SRE &amp; platform roles</p>
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Vanika portfolio home"><span>VE</span><strong>Vanika E.</strong></a>
+      <div class="nav-links"><a href="#expertise">Expertise</a><a href="#impact">Impact</a><a href="#projects">Projects</a><a href="#writing">Writing</a></div>
+      <a class="nav-contact" href="#contact"><span aria-hidden="true"></span>Available to connect</a>
     </nav>
   </header>
+
   <main id="main-content">
-    <section class="hero container" id="top" aria-labelledby="hero-heading">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="kicker">Site Reliability Engineering × Applied AI</p>
-        <h1 id="hero-heading">I make complex systems <em>calmer to operate.</em></h1>
-        <p class="hero-statement">I’m Vanika, an SRE and cloud platform engineer. I build reliable AWS and Kubernetes platforms—and practical AI tools that give operators better context when production gets noisy.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#work">See the engineering work <span aria-hidden="true">↘</span></a><a class="button button-quiet" href="projects.html">Explore live projects</a></div>
+        <p class="signal"><span>Senior SRE</span><i></i><span>Cloud platforms</span><i></i><span>Applied AI</span></p>
+        <h1 id="hero-title">Reliability engineered.<br><em>Intelligence grounded.</em></h1>
+        <p class="hero-lede">I build cloud platforms that recover cleanly, ship safely, and explain themselves under pressure—then use AI to turn scattered operational data into useful engineering context.</p>
+        <div class="hero-actions"><a class="button button-bright" href="#projects">Explore the systems <span>↘</span></a><a class="button button-line" href="https://github.com/E-Vanika" target="_blank" rel="noreferrer">View GitHub ↗</a></div>
       </div>
-      <aside class="operating-note" aria-label="Current engineering focus">
-        <p class="note-label">Current operating brief</p>
-        <ol>
-          <li><span>01</span><strong>Design for recovery</strong><small>DR, safe releases, rollback, runbooks</small></li>
-          <li><span>02</span><strong>Reduce operator toil</strong><small>IaC, GitOps, self-healing, OIDC</small></li>
-          <li><span>03</span><strong>Improve the signal</strong><small>Observability, incident context, AI agents</small></li>
-        </ol>
-        <p class="note-footer"><span>30+ environments</span><span>Production on-call</span></p>
-      </aside>
-    </section>
-    <section class="proof-strip" aria-label="Selected outcomes">
-      <div class="container proof-grid">
-        <div><strong>33%</strong><span>cache infrastructure cost saved</span></div>
-        <div><strong>~80%</strong><span>less deployment effort through IaC</span></div>
-        <div><strong>2–3 min</strong><span>typical alert acknowledgement</span></div>
-        <div><strong>10+</strong><span>critical platforms standardized</span></div>
-      </div>
-    </section>
-    <section class="section container" id="work" aria-labelledby="work-heading">
-      <div class="section-heading"><p class="section-index">01 / Selected engineering</p><h2 id="work-heading">Reliability work with a visible point of view.</h2><p>I work across the full operating loop: build, deploy, observe, investigate, recover, and then automate what should never be manual twice.</p></div>
-      <div class="case-list">
-        <article class="case-study"><div class="case-number">01</div><div class="case-copy"><p class="case-type">SRE · Resilience</p><h3>Multi-region recovery that can actually be exercised</h3><p>Designed and tested an active-passive recovery path, evaluated RDS replication strategies, and automated cross-region snapshot copy with Python and Terraform-deployed Lambda.</p><ul class="tags"><li>AWS RDS</li><li>Lambda</li><li>Terraform</li><li>Python</li></ul></div><div class="flow" aria-label="Primary region snapshot copied to disaster recovery region"><span>Primary</span><i>→</i><span>Snapshot</span><i>→</i><span>DR region</span></div></article>
-        <article class="case-study"><div class="case-number">02</div><div class="case-copy"><p class="case-type">AI · Incident intelligence</p><h3>Operational context, assembled before the engineer has to hunt</h3><p>Built an AI-assisted SRE skills platform and service-flow agent that connects recent changes, GitOps history, Grafana signals, AWS context, incident history, and internal knowledge.</p><ul class="tags"><li>AI agents</li><li>MCP</li><li>Grafana</li><li>Git &amp; Jira</li></ul></div><div class="flow" aria-label="Alert enriched with changes and operational knowledge"><span>Alert</span><i>→</i><span>Context</span><i>→</i><span>Action</span></div></article>
-        <article class="case-study"><div class="case-number">03</div><div class="case-copy"><p class="case-type">Platform · Secure delivery</p><h3>Repeatable delivery without long-lived cloud credentials</h3><p>Standardized reusable GitHub Actions across repositories, introduced OIDC and GitHub App authentication, and built safer release, notification, and infrastructure-drift workflows.</p><ul class="tags"><li>GitHub Actions</li><li>OIDC</li><li>AWS IAM</li><li>GitHub Apps</li></ul></div><div class="flow" aria-label="GitHub Actions obtains short lived cloud identity"><span>GitHub</span><i>→</i><span>OIDC</span><i>→</i><span>AWS</span></div></article>
-        <article class="case-study"><div class="case-number">04</div><div class="case-copy"><p class="case-type">FinOps · Modernization</p><h3>Lower cost without treating reliability as a trade-off</h3><p>Delivered a Redis-to-Valkey migration across development, staging, and production, reducing cache infrastructure cost by 33% while preserving service continuity.</p><ul class="tags"><li>ElastiCache</li><li>Valkey</li><li>MemoryDB</li><li>CloudWatch</li></ul></div><div class="flow" aria-label="Redis modernized to Valkey with a 33 percent saving"><span>Redis</span><i>→</i><span>Valkey</span><i>→</i><span>−33%</span></div></article>
-      </div>
-    </section>
-    <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
-      <div class="container">
-        <div class="section-heading section-heading-light"><p class="section-index">02 / Built end to end</p><h2 id="projects-heading">Products are where the infrastructure earns its keep.</h2><p>These are live, public systems—not tutorial shells. Each one joins product thinking with delivery, safety, observability, and operational constraints.</p></div>
-        <div class="project-ledger">
-          <article class="project-entry project-entry-featured"><div class="project-meta"><span>AI service platform</span><span>Live</span></div><h3>Monika Glam Up</h3><p>A polished bridal-services platform with a grounded AI concierge, private enquiries, reviews, editable content, and an MCP interface. One maintained codebase also serves Crafts by Vani and Mamo Self Care with deliberate brand separation.</p><ul class="tags"><li>Next.js</li><li>RAG</li><li>MCP</li><li>Google Sheets</li><li>Vercel</li></ul><div class="project-links"><a href="https://monika-glamup.vercel.app/" target="_blank" rel="noreferrer">Visit Monika Glam Up ↗</a><a href="https://github.com/E-Vanika/morphos-core" target="_blank" rel="noreferrer">Source ↗</a></div></article>
-          <article class="project-entry"><div class="project-meta"><span>Safety-aware recommendations</span><span>Live</span></div><h3>Zippy Kiddo</h3><p>A privacy-conscious activity recommender for children aged 3–12. Deterministic safety rules stay authoritative while a trained ranker improves suggestions and falls back safely when its model artifact is unavailable.</p><ul class="tags"><li>FastAPI</li><li>ML ranking</li><li>OCI</li><li>Terraform</li><li>Ansible</li></ul><div class="project-links"><a href="https://zippy-kiddo.129-225-85-54.sslip.io" target="_blank" rel="noreferrer">Visit Zippy Kiddo ↗</a><a href="https://github.com/E-Vanika/zippy-kiddo" target="_blank" rel="noreferrer">Source ↗</a></div></article>
-          <article class="project-entry"><div class="project-meta"><span>Reliability engineering lab</span><span>Live</span></div><h3>Single-VM SRE Platform</h3><p>A deliberately honest SRE system on one constrained OCI VM: immutable releases, rollback, SLOs, error budgets, RED/USE telemetry, distributed traces, controlled failure drills, runbooks, and postmortems.</p><ul class="tags"><li>Terraform</li><li>OpenTelemetry</li><li>Grafana</li><li>Caddy</li><li>Docker</li></ul><div class="project-links"><a href="https://solo-sre-pg.duckdns.org/" target="_blank" rel="noreferrer">Visit the platform ↗</a><a href="https://github.com/E-Vanika/solo-sre-project" target="_blank" rel="noreferrer">Source ↗</a></div></article>
+      <div class="system-map" aria-label="Operational system connecting delivery, observability, recovery, and AI context">
+        <div class="map-head"><span>OPERATING MODEL / LIVE</span><i></i></div>
+        <div class="map-canvas">
+          <span class="map-node node-code">CHANGE<small>Git · IaC</small></span>
+          <span class="map-node node-ship">DELIVER<small>OIDC · GitOps</small></span>
+          <span class="map-node node-see">OBSERVE<small>RED · USE</small></span>
+          <span class="map-node node-heal">RECOVER<small>DR · rollback</small></span>
+          <span class="map-node node-ai">CONTEXT<small>AI · MCP</small></span>
+          <i class="map-line line-a"></i><i class="map-line line-b"></i><i class="map-line line-c"></i><i class="map-line line-d"></i>
+          <span class="map-core">SRE</span>
         </div>
-        <a class="text-cta" href="projects.html">Read the full project briefs <span aria-hidden="true">→</span></a>
+        <div class="map-foot"><span>signal → context → action</span><strong>30+ environments</strong></div>
       </div>
     </section>
-    <section class="section container" id="writing" aria-labelledby="writing-heading">
-      <div class="section-heading writing-heading"><div><p class="section-index">03 / Field notes</p><h2 id="writing-heading">The reasoning behind the systems.</h2></div><a class="text-cta" href="blogs.html">Browse all writing →</a></div>
-      <div class="article-list">
-        <a href="https://medium.com/@vanikaraj1/production-grade-amazon-eks-architecture-what-good-looks-like-092eeeaffea1" target="_blank" rel="noreferrer"><span>01</span><strong>Production-Grade Amazon EKS Architecture: What Good Looks Like</strong><small>Medium · EKS architecture</small><i>↗</i></a>
-        <a href="https://www.linkedin.com/pulse/why-you-should-stop-letting-eks-pods-depend-node-iam-roles-vanika-e-udmhc" target="_blank" rel="noreferrer"><span>02</span><strong>Why You Should Stop Letting EKS Pods Depend on Node IAM Roles</strong><small>LinkedIn · cloud security</small><i>↗</i></a>
-        <a href="https://medium.com/@vanikaraj1/ai-in-devops-the-full-stack-and-the-governance-layer-nobody-talks-about-cde32f263ec1" target="_blank" rel="noreferrer"><span>03</span><strong>AI in DevOps: The Full Stack and the Governance Layer Nobody Talks About</strong><small>Medium · AI governance</small><i>↗</i></a>
+
+    <section class="telemetry" aria-label="Verified engineering outcomes">
+      <div class="shell telemetry-grid">
+        <article><span>01</span><strong>~80%</strong><p>less deployment effort through Terraform, Terragrunt, and automation</p></article>
+        <article><span>02</span><strong>−33%</strong><p>cache infrastructure cost through Redis-to-Valkey modernization</p></article>
+        <article><span>03</span><strong>2–3m</strong><p>production alert acknowledgement backed by actionable monitoring</p></article>
+        <article><span>04</span><strong>10+</strong><p>critical platforms standardized with reusable delivery workflows</p></article>
       </div>
     </section>
-    <section class="contact" id="contact" aria-labelledby="contact-heading"><div class="container contact-inner"><p class="section-index">04 / Connect</p><h2 id="contact-heading">Let’s make production boring—in the best possible way.</h2><p>I’m interested in SRE, platform engineering, and applied-AI work where operational depth matters.</p><div class="contact-links"><a href="https://github.com/E-Vanika?tab=repositories" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/vanika-e-54776618b/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:vanikaraj1@gmail.com">Email ↗</a></div></div></section>
+
+    <section class="section shell" id="expertise" aria-labelledby="expertise-title">
+      <div class="section-intro"><p class="section-code">01 / HOW I WORK</p><div><h2 id="expertise-title">Two disciplines.<br>One operating model.</h2><p>AI is most useful when the platform beneath it is observable, secure, and recoverable. My work connects both sides.</p></div></div>
+      <div class="discipline-grid">
+        <article class="discipline-card sre-card"><p class="card-index">A / SITE RELIABILITY</p><h3>Keep the system understandable.</h3><p>Design the platform, delivery path, signals, and recovery strategy as one operational product.</p><ul><li><span>01</span>AWS and multi-region recovery</li><li><span>02</span>Kubernetes and EKS lifecycle</li><li><span>03</span>Terraform, Terragrunt, GitOps</li><li><span>04</span>SLOs, telemetry, incident response</li></ul></article>
+        <article class="discipline-card ai-card"><p class="card-index">B / APPLIED AI</p><h3>Give operators better context.</h3><p>Ground AI in approved knowledge, recent change data, and observable system state—with deterministic safety boundaries.</p><ul><li><span>01</span>AI-assisted incident intelligence</li><li><span>02</span>RAG and semantic retrieval</li><li><span>03</span>MCP tools and knowledge access</li><li><span>04</span>Model training and artifact promotion</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section impact-section" id="impact" aria-labelledby="impact-title">
+      <div class="shell">
+        <div class="section-intro"><p class="section-code">02 / PRODUCTION IMPACT</p><div><h2 id="impact-title">Work that changed the operating reality.</h2><p>Selected, public-safe examples from production platform ownership.</p></div></div>
+        <div class="impact-list">
+          <article><div class="impact-number">01</div><div class="impact-copy"><p>RESILIENCE / AWS</p><h3>Made recovery a tested path, not a diagram.</h3><span>Designed an active-passive strategy, evaluated RDS replication options, and automated cross-region snapshot copy with Python and Terraform-deployed Lambda.</span></div><div class="impact-flow" aria-label="Primary region snapshot copied to disaster recovery region"><b>PRIMARY</b><i>→</i><b>SNAPSHOT</b><i>→</i><b>DR</b></div></article>
+          <article><div class="impact-number">02</div><div class="impact-copy"><p>SECURE DELIVERY / PLATFORM</p><h3>Removed long-lived credentials from the delivery path.</h3><span>Standardized GitHub Actions, adopted OIDC and GitHub App authentication, and built reusable release, notification, and drift-validation workflows.</span></div><div class="impact-flow" aria-label="GitHub exchanges OpenID Connect identity with AWS"><b>GITHUB</b><i>→</i><b>OIDC</b><i>→</i><b>AWS</b></div></article>
+          <article><div class="impact-number">03</div><div class="impact-copy"><p>AI / OPERATIONS</p><h3>Connected alerts to the context needed to investigate them.</h3><span>Built an SRE skills platform and service-flow agent spanning recent changes, Grafana, AWS, incident history, GitOps, Jira, and internal knowledge.</span></div><div class="impact-flow" aria-label="Alert enriched by operational context before action"><b>ALERT</b><i>→</i><b>CONTEXT</b><i>→</i><b>ACTION</b></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-intro"><p class="section-code">03 / BUILT END TO END</p><div><h2 id="projects-title">The proof is running.</h2><p>Public systems where product, ML, cloud delivery, and day-two operations meet.</p></div></div>
+      <div class="project-grid">
+        <article class="project-card project-zippy">
+          <div class="project-top"><p>01 / RESPONSIBLE ML + CLOUD DELIVERY</p><span>LIVE SYSTEM</span></div>
+          <div class="project-body"><div><h3>Zippy Kiddo</h3><p>A privacy-conscious activity recommender for children aged 3–12. Deterministic rules own safety; a trained retrieval model improves ranking and fails back safely.</p></div><div class="model-stats"><div><strong>1.00</strong><span>top‑1 retrieval</span></div><div><strong>436</strong><span>token vocabulary</span></div><div><strong>SHA‑256</strong><span>artifact pin</span></div></div></div>
+          <div class="pipeline" aria-label="Zippy Kiddo model lifecycle from catalogue through Kaggle and Hugging Face to OCI"><span>CATALOGUE<small>reviewed data</small></span><i>→</i><span>KAGGLE<small>train + gate</small></span><i>→</i><span>HUGGING FACE<small>versioned model</small></span><i>→</i><span>OCI<small>local inference</small></span></div>
+          <ul class="tags"><li>FastAPI</li><li>TF‑IDF ranker</li><li>Kaggle</li><li>Hugging Face</li><li>Terraform</li><li>Ansible</li></ul>
+          <div class="project-actions"><a href="https://zippy-kiddo.129-225-85-54.sslip.io" target="_blank" rel="noreferrer">Open live product ↗</a><a href="https://huggingface.co/vanikae/zippy-kiddo-ranker" target="_blank" rel="noreferrer">View model ↗</a><a href="https://github.com/E-Vanika/zippy-kiddo" target="_blank" rel="noreferrer">Source ↗</a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><p>02 / GROUNDED AI PLATFORM</p><span>LIVE SYSTEM</span></div><h3>Monika Glam Up</h3><p>A multi-brand service platform with a grounded AI concierge, private enquiry workflows, reviews, editable content, and an MCP endpoint—deployed as distinct customer experiences from one codebase.</p><div class="mini-architecture"><span>EXPERIENCE</span><i>+</i><span>RAG</span><i>+</i><span>MCP</span></div><ul class="tags"><li>Next.js</li><li>RAG</li><li>MCP</li><li>Google Sheets</li><li>Vercel</li></ul><div class="project-actions"><a href="https://monika-glamup.vercel.app/" target="_blank" rel="noreferrer">Open live product ↗</a><a href="https://github.com/E-Vanika/morphos-core" target="_blank" rel="noreferrer">Source ↗</a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><p>03 / RELIABILITY ENGINEERING</p><span>LIVE SYSTEM</span></div><h3>Single‑VM SRE Platform</h3><p>An intentionally honest SRE lab with immutable releases, rollback, SLOs, RED/USE telemetry, distributed traces, controlled failure drills, runbooks, and postmortems on a constrained OCI VM.</p><div class="mini-architecture"><span>DELIVER</span><i>+</i><span>OBSERVE</span><i>+</i><span>RECOVER</span></div><ul class="tags"><li>Terraform</li><li>Docker</li><li>OpenTelemetry</li><li>Grafana</li><li>Caddy</li></ul><div class="project-actions"><a href="https://solo-sre-pg.duckdns.org/" target="_blank" rel="noreferrer">Open live platform ↗</a><a href="https://github.com/E-Vanika/solo-sre-project" target="_blank" rel="noreferrer">Source ↗</a></div>
+        </article>
+      </div>
+      <a class="section-link" href="projects.html">Read the complete engineering case studies <span>→</span></a>
+    </section>
+
+    <section class="section writing-section" id="writing" aria-labelledby="writing-title">
+      <div class="shell"><div class="section-intro"><p class="section-code">04 / WRITING</p><div><h2 id="writing-title">Architecture, explained.</h2><p>The operational reasoning behind resilient platforms—not only the implementation steps.</p></div></div>
+        <div class="writing-list">
+          <a href="https://medium.com/@vanikaraj1/production-grade-amazon-eks-architecture-what-good-looks-like-092eeeaffea1" target="_blank" rel="noreferrer"><span>01</span><strong>Production‑Grade Amazon EKS Architecture: What Good Looks Like</strong><small>EKS / GitOps / resilience</small><i>↗</i></a>
+          <a href="https://www.linkedin.com/pulse/why-you-should-stop-letting-eks-pods-depend-node-iam-roles-vanika-e-udmhc" target="_blank" rel="noreferrer"><span>02</span><strong>Why You Should Stop Letting EKS Pods Depend on Node IAM Roles</strong><small>IAM / workload identity</small><i>↗</i></a>
+          <a href="https://medium.com/@vanikaraj1/ai-in-devops-the-full-stack-and-the-governance-layer-nobody-talks-about-cde32f263ec1" target="_blank" rel="noreferrer"><span>03</span><strong>AI in DevOps: The Full Stack and the Governance Layer Nobody Talks About</strong><small>AI / governance</small><i>↗</i></a>
+        </div><a class="section-link" href="blogs.html">Browse all writing <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="contact shell" id="contact" aria-labelledby="contact-title"><p class="section-code">05 / CONNECT</p><div><h2 id="contact-title">Building systems that deserve trust.</h2><p>I’m interested in senior SRE, platform engineering, and applied-AI roles where operational depth matters.</p><div class="contact-links"><a href="mailto:vanikaraj1@gmail.com">Email me ↗</a><a href="https://www.linkedin.com/in/vanika-e-54776618b/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/E-Vanika" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></section>
   </main>
-  <footer class="footer container"><p>Vanika E. · SRE &amp; AI Platform Engineer</p><p>© 2026</p></footer>
+  <footer class="footer shell"><p>VANIKA E. / SENIOR SRE + AI PLATFORM ENGINEER</p><p>© 2026 · SYSTEM ONLINE</p></footer>
 </body>
 </html>
