@@ -1,7 +1,7 @@
 ﻿# Vanika's DevOps Portfolio
 
-[![Static site quality checks](https://github.com/E-Vanika/Vanika-Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/E-Vanika/Vanika-Portfolio/actions/workflows/ci.yml)
-[![Deploy static site to GitHub Pages](https://github.com/E-Vanika/Vanika-Portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/E-Vanika/Vanika-Portfolio/actions/workflows/deploy.yml)
+[![Static site quality checks](https://github.com/E-Vanika/E-Vanika.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/E-Vanika/E-Vanika.github.io/actions/workflows/ci.yml)
+[![Deploy static site to GitHub Pages](https://github.com/E-Vanika/E-Vanika.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/E-Vanika/E-Vanika.github.io/actions/workflows/deploy.yml)
 
 A responsive, terminal-inspired portfolio that presents my DevOps and SRE work: cloud infrastructure, GitOps delivery, observability, resilience, security automation, and cost optimisation.
 
@@ -63,7 +63,7 @@ python scripts/validate_site.py
 3. Set **Build and deployment → Source** to **GitHub Actions**.
 4. Watch the deployment in the **Actions** tab; the successful deployment job provides the public URL.
 
-For a project repository, the address is typically `https://E-Vanika.github.io/Vanika-Portfolio/`.
+This repository is the GitHub Pages user site and publishes at `https://e-vanika.github.io/`.
 
 ## Reusing this portfolio
 
