@@ -66,7 +66,7 @@ a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 5px; }
 .map-foot { border-top: 1px solid var(--line); border-bottom: 0; }.map-foot strong { color: var(--cyan); }
 
 .telemetry { border-block: 1px solid var(--line); background: rgba(11,17,26,.72); }
-.telemetry-grid { display: grid; grid-template-columns: repeat(3,1fr); }
+.telemetry-grid { display: grid; grid-template-columns: repeat(4,1fr); }
 .telemetry article { min-height: 185px; padding: 1.5rem; border-right: 1px solid var(--line); }
 .telemetry article:first-child { border-left: 1px solid var(--line); }
 .telemetry article>span { color: #506574; font: 700 .6rem var(--mono); }
